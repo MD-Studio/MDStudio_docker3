@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-stretch
 
 # Service user
 RUN useradd mdstudio && mkdir /home/mdstudio && chown mdstudio:mdstudio /home/mdstudio
