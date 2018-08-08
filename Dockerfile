@@ -9,4 +9,4 @@ WORKDIR /home/mdstudio
 
 RUN git clone --branch devel --single-branch git://github.com/MD-Studio/MDStudio.git
 
-RUN  pip install -e MDStudio/mdstudio
+RUN  pip install -r requirements-dev.txt && pip install -e MDStudio/mdstudio
