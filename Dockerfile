@@ -7,7 +7,7 @@ COPY . /home/mdstudio
 
 WORKDIR /home/mdstudio
 
-RUN git clone --branch devel --single-branch git://github.com/MD-Studio/MDStudio.git
+RUN git clone --branch master --single-branch git://github.com/MD-Studio/MDStudio.git
 
 RUN cd MDStudio && rm -rf src/
 
