@@ -11,4 +11,4 @@ RUN git clone --branch master --single-branch git://github.com/MD-Studio/MDStudi
 
 RUN cd MDStudio && rm -rf src/
 
-RUN  cd MDStudio && pip install -r requirements-dev.txt &&  pip install -e mdstudio
+RUN cd MDStudio && pip install -r requirements-dev.txt && pip install -e mdstudio
